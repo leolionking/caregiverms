@@ -1,0 +1,187 @@
+.cms-portal-wrap {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.cms-portal-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    margin: 20px 0;
+}
+
+.cms-portal-card {
+    background: #fff;
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.cms-portal-card h3 {
+    margin-top: 0;
+    border-bottom: 2px solid #f0f0f0;
+    padding-bottom: 10px;
+}
+
+.cms-clock-status {
+    font-size: 1.2em;
+    margin: 15px 0;
+    padding: 10px;
+    border-radius: 4px;
+    text-align: center;
+}
+
+.cms-clock-status.active {
+    background: #e8f5e9;
+    color: #2e7d32;
+}
+
+.cms-clock-status.inactive {
+    background: #ffebee;
+    color: #c62828;
+}
+
+.cms-availability-grid {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 10px;
+    margin: 15px 0;
+}
+
+.cms-availability-day {
+    text-align: center;
+}
+
+.cms-shift-toggle {
+    display: block;
+    padding: 5px;
+    margin: 5px 0;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.cms-shift-toggle.available {
+    background: #e8f5e9;
+    border-color: #81c784;
+}
+
+.cms-upcoming-shifts {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.cms-upcoming-shift {
+    padding: 10px;
+    border-bottom: 1px solid #f0f0f0;
+}
+
+.cms-upcoming-shift:last-child {
+    border-bottom: none;
+}
+
+.cms-shift-date {
+    font-weight: bold;
+    color: #2196f3;
+}
+
+.cms-shift-type {
+    display: inline-block;
+    padding: 2px 8px;
+    border-radius: 12px;
+    font-size: 0.9em;
+    margin-left: 10px;
+}
+
+.cms-shift-type.morning {
+    background: #fff3e0;
+    color: #e65100;
+}
+
+.cms-shift-type.afternoon {
+    background: #e1f5fe;
+    color: #0277bd;
+}
+
+.cms-shift-type.night {
+    background: #e8eaf6;
+    color: #283593;
+}
+
+/* Login Form Styles */
+.cms-login-wrap {
+    max-width: 400px;
+    margin: 40px auto;
+    padding: 20px;
+}
+
+.cms-login-form {
+    background: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.cms-login-form h2 {
+    margin: 0 0 20px;
+    text-align: center;
+    color: #333;
+}
+
+.cms-form-group {
+    margin-bottom: 20px;
+}
+
+.cms-form-group label {
+    display: block;
+    margin-bottom: 5px;
+    color: #555;
+    font-weight: 500;
+}
+
+.cms-form-control {
+    width: 100%;
+    padding: 8px 12px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.cms-form-control:focus {
+    border-color: #2196f3;
+    outline: none;
+    box-shadow: 0 0 0 2px rgba(33,150,243,0.2);
+}
+
+.cms-error-message {
+    background: #ffebee;
+    color: #c62828;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.cms-login-form .button {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.cms-login-links {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.cms-login-links a {
+    color: #2196f3;
+    text-decoration: none;
+}
+
+.cms-login-links a:hover {
+    text-decoration: underline;
+}

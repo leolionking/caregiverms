@@ -1,0 +1,83 @@
+// Admin styles
+.cms-wrap {
+    margin: 20px;
+  }
+  
+  .cms-card {
+    background: #fff;
+    border: 1px solid #ccd0d4;
+    box-shadow: 0 1px 1px rgba(0,0,0,.04);
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 4px;
+  }
+  
+  .cms-schedule-controls,
+  .cms-payroll-controls {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .cms-schedule-table {
+    width: 100%;
+    border-collapse: collapse;
+    
+    th, td {
+      padding: 10px;
+      border: 1px solid #ccd0d4;
+    }
+  }
+  
+  .cms-modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.5);
+    z-index: 100000;
+  }
+  
+  .cms-modal-content {
+    position: relative;
+    background: #fff;
+    margin: 10% auto;
+    padding: 20px;
+    width: 90%;
+    max-width: 500px;
+    border-radius: 4px;
+  }
+  
+  .cms-modal-footer {
+    margin-top: 20px;
+    text-align: right;
+    
+    .button {
+      margin-left: 10px;
+    }
+  }
+  
+  .cms-assigned-caregiver {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+    margin: 2px 0;
+    background: #f8f9fa;
+    border-radius: 3px;
+  }
+  
+  .cms-remove-assignment {
+    border: none;
+    background: none;
+    color: #dc3545;
+    cursor: pointer;
+    padding: 0 5px;
+    
+    &:hover {
+      color: #c82333;
+    }
+  }

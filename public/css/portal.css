@@ -1,0 +1,147 @@
+.cms-portal-wrap {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.cms-portal-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+    padding-bottom: 20px;
+    border-bottom: 2px solid #eee;
+}
+
+.cms-user-info {
+    font-size: 1.1em;
+    color: #666;
+}
+
+.cms-portal-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    margin: 20px 0;
+}
+
+.cms-portal-card {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.cms-portal-card h3 {
+    margin: 0 0 20px 0;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #eee;
+    color: #333;
+    font-size: 1.2em;
+}
+
+.cms-clock-status {
+    font-size: 1.2em;
+    margin: 15px 0;
+    padding: 15px;
+    border-radius: 6px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.cms-clock-status.active {
+    background: #e8f5e9;
+    color: #2e7d32;
+}
+
+.cms-clock-status.inactive {
+    background: #ffebee;
+    color: #c62828;
+}
+
+.cms-clock-button {
+    width: 100%;
+    padding: 12px !important;
+    font-size: 1.1em !important;
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+}
+
+.cms-upcoming-shifts {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.cms-upcoming-shift {
+    padding: 12px;
+    border-bottom: 1px solid #eee;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cms-upcoming-shift:last-child {
+    border-bottom: none;
+}
+
+.cms-shift-date {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    color: #2196f3;
+    font-weight: 500;
+}
+
+.cms-shift-type {
+    display: inline-flex;
+    align-items: center;
+    padding: 4px 12px;
+    border-radius: 12px;
+    font-size: 0.9em;
+    font-weight: 500;
+}
+
+.cms-shift-type.morning {
+    background: #fff3e0;
+    color: #e65100;
+}
+
+.cms-shift-type.afternoon {
+    background: #e1f5fe;
+    color: #0277bd;
+}
+
+.cms-shift-type.night {
+    background: #e8eaf6;
+    color: #283593;
+}
+
+.cms-today-shift {
+    background: #f5f5f5;
+    padding: 15px;
+    border-radius: 6px;
+    margin-top: 10px;
+}
+
+.cms-shift-time {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 1.1em;
+}
+
+.cms-no-shift,
+.cms-no-shifts {
+    color: #666;
+    text-align: center;
+    padding: 20px;
+    background: #f5f5f5;
+    border-radius: 6px;
+}
